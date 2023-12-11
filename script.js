@@ -1,4 +1,4 @@
-window.onload = function() {
-    var video = document.getElementById("background-video");
+document.addEventListener("DOMContentLoaded", function() {
+    var video = document.getElementById('videoLoop');
     video.play();
-};
+});
